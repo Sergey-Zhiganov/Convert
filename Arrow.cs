@@ -13,11 +13,12 @@ namespace Конвертатор
         {
             if (key.Key == ConsoleKey.UpArrow || key.Key == ConsoleKey.DownArrow || key.Key == ConsoleKey.RightArrow || key.Key == ConsoleKey.LeftArrow)
             {
-                Arrow.Show(min, max, key, data_text);
+                Show(min, max, key, data_text);
             }
             else
             {
                 Edit(key, data_text);
+                Show(min, max, key, data_text);
             }
         }
         private static void Show(int min, int max, ConsoleKeyInfo key, string[] data_text)
