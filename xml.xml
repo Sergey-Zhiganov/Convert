@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfEmployee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Employee>
+    <FullName>Наумов А. Б.</FullName>
+    <Age>40</Age>
+    <Post>Начальник отдела</Post>
+    <Salary>100000</Salary>
+    <Experience>10</Experience>
+  </Employee>
+  <Employee>
+    <FullName>Третьякова М. А.</FullName>
+    <Age>30</Age>
+    <Post>Менеджер</Post>
+    <Salary>70000</Salary>
+    <Experience>5</Experience>
+  </Employee>
+  <Employee>
+    <FullName>Смирнов Т. Н.</FullName>
+    <Age>35</Age>
+    <Post>Старший менеджер</Post>
+    <Salary>85000</Salary>
+    <Experience>7</Experience>
+  </Employee>
+  <Employee>
+    <FullName>Петров Л. А.</FullName>
+    <Age>25</Age>
+    <Post>Младший менеджер</Post>
+    <Salary>50000</Salary>
+    <Experience>1</Experience>
+  </Employee>
+</ArrayOfEmployee>
