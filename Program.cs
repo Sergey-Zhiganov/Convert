@@ -44,7 +44,6 @@ namespace Конвертатор
                         List<Employee> result;
                         do
                         {
-                            Console.SetCursorPosition(0, data_text.Length + 1);
                             Console.WriteLine("Введите путь конечного файла");
                             string path = Console.ReadLine();
                             result = Files.Main(path, 2, data_text);
