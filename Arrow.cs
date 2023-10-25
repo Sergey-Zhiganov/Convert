@@ -59,7 +59,7 @@ namespace Конвертатор
                 data_text[y - 1] += key.KeyChar;
             }
             Program.Print(data_text);
-            Console.SetCursorPosition(x, y);
+            Console.SetCursorPosition(x + 1, y);
         }
     }
 }
